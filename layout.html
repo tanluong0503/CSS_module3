@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style type="text/css">
+        body {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .root {
+            width: 100%;
+            display: block;
+            background-color: turquoise;
+        }
+
+        .header {
+            width: 100%;
+            background-color: yellow;
+            float: left;
+            min-height: 200px;
+        }
+
+        .container {
+            width: 100%;
+            min-height: 800px;
+            background-color: white;
+        }
+
+        .footer {
+            width: 100%;
+            background-color: blue;
+            float: left;
+            min-height: 200px;
+        }
+
+        .left-main {
+            width: 70%;
+            float: left;
+        }
+
+        .right-main {
+            width: 30%;
+            float: left;
+            background-color: red;
+            min-height: 800px;
+        }
+
+        .topbar {
+            width: 100%;
+            background-color: rgb(13, 75, 75);
+            padding: 8px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="root">
+        <div class="header">
+            <div class="topbar">
+                <div class="topbar-left"></div>
+                <div class="topbar-right">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="left-main"> Left main </div>
+            <div class="right-main"> Right main</div>
+        </div>
+        <div class="footer"> Footer </div>
+    </div>
+</body>
+
+</html>

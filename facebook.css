@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+#header {
+    background-color: aqua;
+    height: 100px;
+    width: 100%;
+}
+
+#left {
+    background-color: rgb(63, 140, 108);
+    height: 510px;
+    width: 25%;
+    float: left;
+}
+
+#between {
+    background-color: white;
+    height: 510px;
+    width: 50%;
+    float: left;
+
+}
+
+#right {
+    background-color: rgb(148, 46, 68);
+    height: 510px;
+    width: 25%;
+    float: right;
+}
